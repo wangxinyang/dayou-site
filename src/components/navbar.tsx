@@ -16,7 +16,7 @@ const NavLinks = () => {
         私達について
       </Link>
       <Link href="#products" className="block text-lg">
-        商品
+        取扱商品
       </Link>
       <Link href="#contact" className="block text-lg">
         お問い合わせ

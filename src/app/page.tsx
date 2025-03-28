@@ -1,3 +1,4 @@
+import GoogleMap from "@/components/googleMap";
 import { AboutUs } from "@/components/sections/about_us";
 import { Banner } from "@/components/sections/banner";
 import { Contact } from "@/components/sections/contact";
@@ -13,6 +14,12 @@ export default function Home() {
         <Banner />
         <AboutUs />
         <Products />
+        <div className="w-full flex flex-col gap-6 items-center pt-8">
+          <h1 className="w-[220px] flex justify-center text-lg lg:text-3xl border border-stone-950 p-4 rounded-md">
+            地図
+          </h1>
+          <GoogleMap />
+        </div>
         <Contact />
         <Footer />
       </div>

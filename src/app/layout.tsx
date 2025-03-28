@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="scorll-smooth bg-slate-100">{children}</body>
+      <body className="scroll-smooth bg-slate-100">{children}</body>
     </html>
   );
 }
