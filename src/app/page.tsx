@@ -7,13 +7,15 @@ import { Products } from "@/components/sections/products";
 
 export default function Home() {
   return (
-    <main className="text-stone-950 max-w-5xl mx-auto p-4">
-      <Hero />
-      <Banner />
-      <AboutUs />
-      <Products />
-      <Contact />
-      <Footer />
+    <main className="text-stone-950 max-w-7xl mx-auto p-4">
+      <div className="flex flex-col gap-4">
+        <Hero />
+        <Banner />
+        <AboutUs />
+        <Products />
+        <Contact />
+        <Footer />
+      </div>
     </main>
   );
 }
