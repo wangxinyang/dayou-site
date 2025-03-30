@@ -27,6 +27,7 @@ export const Products = () => {
                 alt="logo"
                 width={900}
                 height={400}
+                style={{ width: "100%", height: "auto" }}
               />
             </div>
           </CarouselItem>
@@ -37,6 +38,7 @@ export const Products = () => {
                 alt="logo"
                 width={900}
                 height={400}
+                style={{ width: "100%", height: "auto" }}
               />
             </div>
           </CarouselItem>
@@ -47,6 +49,7 @@ export const Products = () => {
                 alt="logo"
                 width={900}
                 height={400}
+                style={{ width: "100%", height: "auto" }}
               />
             </div>
           </CarouselItem>
@@ -57,6 +60,7 @@ export const Products = () => {
                 alt="logo"
                 width={900}
                 height={400}
+                style={{ width: "100%", height: "auto" }}
               />
             </div>
           </CarouselItem>
@@ -67,6 +71,7 @@ export const Products = () => {
                 alt="logo"
                 width={900}
                 height={400}
+                style={{ width: "100%", height: "auto" }}
               />
             </div>
           </CarouselItem>

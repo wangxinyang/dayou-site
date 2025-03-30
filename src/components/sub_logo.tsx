@@ -1,14 +1,24 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import Image from "next/image";
-import { useMediaQuery } from "react-responsive";
+import { UseMedia } from "@/hooks/use_media";
 
 export const SubLogo = () => {
-  const isMobile = useMediaQuery({ query: "(max-width: 1024px)" });
-  const width = isMobile ? 20 : 35;
-  const height = isMobile ? 20 : 35;
+  const [width, setWidth] = useState(20);
+  const [height, setHeight] = useState(20);
+  const { isMobile } = UseMedia();
+
+  useEffect(() => {
+    if (!isMobile) {
+      setWidth(35);
+      setHeight(35);
+    } else {
+      setWidth(20);
+      setHeight(20);
+    }
+  }, [isMobile]);
 
   return (
     <div className="flex items-start lg:items-center gap-2">

@@ -44,7 +44,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="w-[60%] p-6">
+    <div className="w-full lg:w-[52%] p-6">
       <p>
         <span className="text-red-500 text-xs lg:text-lg">※</span>
         <span className="text-xs lg:text-lg">マークは必須項目となります。</span>
@@ -109,7 +109,7 @@ const ContactForm = () => {
               type="text"
               id="companyAddress"
               {...register("companyAddress", {
-                required: "ご担当者様名が未入力です。",
+                required: "御社住所が未入力です。",
               })}
               className="w-full p-2 border border-gray-300 rounded-md"
             />
@@ -162,10 +162,6 @@ const ContactForm = () => {
               id="email"
               {...register("email", {
                 required: "E-mailが未入力です。",
-                pattern: {
-                  value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
-                  message: "请输入有效的电子邮件地址",
-                },
               })}
               className="w-full p-2 border border-gray-300 rounded-md"
             />
