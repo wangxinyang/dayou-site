@@ -8,21 +8,23 @@ import { Products } from "@/components/sections/products";
 
 export default function Home() {
   return (
-    <main className="text-stone-950 max-w-7xl mx-auto p-4">
-      <div className="flex flex-col gap-4">
-        <Hero />
-        <Banner />
-        <AboutUs />
-        <Products />
-        <div className="w-full flex flex-col gap-6 items-center pt-8">
-          <h1 className="w-[220px] flex justify-center text-lg lg:text-3xl border border-stone-950 p-4 rounded-md">
-            地図
-          </h1>
-          <GoogleMap />
+    <>
+      <Hero />
+      <main className="text-stone-950 max-w-7xl mx-auto p-4">
+        <div className="flex flex-col gap-4">
+          <Banner />
+          <AboutUs />
+          <Products />
+          <div className="w-full flex flex-col gap-6 items-center pt-8">
+            <h1 className="w-[220px] flex justify-center text-lg lg:text-3xl border border-stone-950 p-4 rounded-md">
+              地図
+            </h1>
+            <GoogleMap />
+          </div>
+          <Contact />
+          <Footer />
         </div>
-        <Contact />
-        <Footer />
-      </div>
-    </main>
+      </main>
+    </>
   );
 }
