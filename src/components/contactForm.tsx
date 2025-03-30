@@ -15,32 +15,27 @@ const ContactForm = () => {
   } = useForm();
 
   const onSubmit: SubmitHandler<FieldValues> = async (data) => {
-    const { name, email, message } = data;
+    const {
+      companyName,
+      dutyName,
+      companyAddress,
+      companyPhone,
+      companyFax,
+      email,
+      companySite,
+      message,
+    } = data;
+    setError("");
 
-    // 表单验证逻辑
-    if (!name || !email || !message) {
-      setError("请填写所有字段！");
-      return;
-    }
-
-    setError(""); // 清除错误消息
-
-    // 发送数据到 API 或进行处理
-    // const response = await fetch("/api/contact", {
-    //   method: "POST",
-    //   body: JSON.stringify(data),
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    // });
+    const mailtoLink = `mailto:DAYOU-international@mori-dx.jp?subject=${companyName}-${dutyName}からのメッセージ&body=メッセージ内容:%0A会社名: ${companyName}%0A担当者様名: ${dutyName}%0A住所: ${companyAddress}%0A電話番号: ${companyPhone}%0AFAX番号: ${
+      companyFax ?? ""
+    }%0Aメールアドレス: ${email}%0Aウェブサイト: ${
+      companySite ?? ""
+    }%0A連絡事項: ${message}%0A%0A返信用メールアドレス: ${email}`;
+    window.location.href = mailtoLink;
     const ok = true;
 
-    if (ok) {
-      setSubmitted(true);
-      reset(); // 重置表单
-    } else {
-      setError("提交失败，请稍后再试。");
-    }
+    reset();
   };
 
   return (
@@ -76,10 +71,7 @@ const ContactForm = () => {
             )}
           </div>
           <div className="mb-4">
-            <label
-              htmlFor="companyName"
-              className="block text-sm font-semibold"
-            >
+            <label htmlFor="dutyName" className="block text-sm font-semibold">
               ご担当者様名
               <span className="text-red-500">※</span>
             </label>
@@ -148,6 +140,7 @@ const ContactForm = () => {
             <input
               type="text"
               id="companyFax"
+              {...register("companyFax")}
               className="w-full p-2 border border-gray-300 rounded-md"
             />
           </div>
@@ -181,6 +174,7 @@ const ContactForm = () => {
             <input
               type="text"
               id="companySite"
+              {...register("companySite")}
               className="w-full p-2 border border-gray-300 rounded-md"
             />
           </div>

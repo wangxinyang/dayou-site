@@ -31,7 +31,7 @@ export const Hero = () => {
           transition={{ duration: 1 }}
           className="transition-all p-4 block relative z-1"
         >
-          <div className="max-w-7xl mx-auto h-[80px] flex justify-between items-center">
+          <div className="max-w-7xl mx-auto h-[60px] flex justify-between items-center">
             <Logo />
             <Navbar />
           </div>
@@ -48,7 +48,7 @@ export const Hero = () => {
         >
           <div
             id="top"
-            className="max-w-7xl mx-auto h-[80px] flex justify-between items-center"
+            className="max-w-7xl mx-auto h-[60px] flex justify-between items-center"
           >
             <motion.div
               initial={{ opacity: 0, y: -5 }}
