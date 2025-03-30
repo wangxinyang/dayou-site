@@ -12,7 +12,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth bg-slate-100">
+    <html
+      lang="en"
+      className="scroll-smooth bg-slate-100"
+      style={{ scrollPaddingTop: "80px" }}
+    >
       <body>{children}</body>
     </html>
   );
