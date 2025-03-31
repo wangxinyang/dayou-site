@@ -1,82 +1,105 @@
 "use client";
 
 import React, { useRef } from "react";
-
 import Image from "next/image";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
+import { motion } from "framer-motion";
 
 export const Products = () => {
-  const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: false }));
+  const plugin = useRef(Autoplay({ delay: 4000, stopOnInteraction: true }));
 
   return (
-    <div id="products" className="w-full flex flex-col gap-6 items-center pt-8">
-      <h1 className="w-[220px] flex justify-center text-lg lg:text-3xl border border-stone-950 p-4 rounded-md">
-        取扱商品
-      </h1>
-      <Carousel plugins={[plugin.current]} className="w-full">
-        <CarouselContent>
-          <CarouselItem>
-            <div className="flex justify-center p-1">
-              <Image
-                src="/assets/product1.png"
-                alt="logo"
-                width={900}
-                height={400}
-                style={{ width: "100%", height: "auto" }}
-              />
-            </div>
-          </CarouselItem>
-          <CarouselItem>
-            <div className="flex justify-center p-1">
-              <Image
-                src="/assets/product2.png"
-                alt="logo"
-                width={900}
-                height={400}
-                style={{ width: "100%", height: "auto" }}
-              />
-            </div>
-          </CarouselItem>
-          <CarouselItem>
-            <div className="flex justify-center p-1">
-              <Image
-                src="/assets/product3.png"
-                alt="logo"
-                width={900}
-                height={400}
-                style={{ width: "100%", height: "auto" }}
-              />
-            </div>
-          </CarouselItem>
-          <CarouselItem>
-            <div className="flex justify-center p-1">
-              <Image
-                src="/assets/product4.png"
-                alt="logo"
-                width={900}
-                height={400}
-                style={{ width: "100%", height: "auto" }}
-              />
-            </div>
-          </CarouselItem>
-          <CarouselItem>
-            <div className="flex justify-center p-1">
-              <Image
-                src="/assets/product5.png"
-                alt="logo"
-                width={900}
-                height={400}
-                style={{ width: "100%", height: "auto" }}
-              />
-            </div>
-          </CarouselItem>
-        </CarouselContent>
-      </Carousel>
-    </div>
+    <section id="products" className="w-full py-16">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+        className="flex flex-col gap-8 items-center"
+      >
+        <h2 className="text-3xl lg:text-4xl font-bold text-foreground relative">
+          取扱商品
+          <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-20 h-1 bg-primary rounded-full" />
+        </h2>
+
+        <div className="relative w-full">
+          <Carousel
+            plugins={[plugin.current]}
+            className="w-full"
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+          >
+            <CarouselContent>
+              <CarouselItem>
+                <div className="relative aspect-[16/9] w-full rounded-lg overflow-hidden shadow-lg hover-card">
+                  <Image
+                    src="/assets/product1.png"
+                    alt="Product 1"
+                    fill
+                    className="object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <div className="relative aspect-[16/9] w-full rounded-lg overflow-hidden shadow-lg hover-card">
+                  <Image
+                    src="/assets/product2.png"
+                    alt="Product 2"
+                    fill
+                    className="object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <div className="relative aspect-[16/9] w-full rounded-lg overflow-hidden shadow-lg hover-card">
+                  <Image
+                    src="/assets/product3.png"
+                    alt="Product 3"
+                    fill
+                    className="object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <div className="relative aspect-[16/9] w-full rounded-lg overflow-hidden shadow-lg hover-card">
+                  <Image
+                    src="/assets/product4.png"
+                    alt="Product 4"
+                    fill
+                    className="object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <div className="relative aspect-[16/9] w-full rounded-lg overflow-hidden shadow-lg hover-card">
+                  <Image
+                    src="/assets/product5.png"
+                    alt="Product 5"
+                    fill
+                    className="object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                </div>
+              </CarouselItem>
+            </CarouselContent>
+            <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white" />
+            <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white" />
+          </Carousel>
+        </div>
+      </motion.div>
+    </section>
   );
 };

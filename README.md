@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 大有国際株式会社 企業サイト
 
-## Getting Started
+## 概要
+大有国際株式会社の企業サイトです。Next.js と Tailwind CSS を使用したモダンなウェブサイトで、レスポンシブデザインを採用しています。
 
-First, run the development server:
+## 技術スタック
+- [Next.js 14](https://nextjs.org/) - React フレームワーク
+- [TypeScript](https://www.typescriptlang.org/) - 型安全な JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - ユーティリティファーストの CSS フレームワーク
+- [Framer Motion](https://www.framer.com/motion/) - アニメーションライブラリ
+- [Radix UI](https://www.radix-ui.com/) - アクセシブルなコンポーネントライブラリ
+- [React Hook Form](https://react-hook-form.com/) - フォームバリデーション
+
+## 主な機能
+- 🎨 モダンでレスポンシブなデザイン
+- 🌙 ダークモード対応
+- ✨ スムーズなページ遷移とアニメーション
+- 📱 モバイルフレンドリーなナビゲーション
+- 📝 バリデーション付きお問い合わせフォーム
+- 🗺️ Google Maps 統合
+- 🖼️ 画像カルーセル
+- 🎭 グラデーションエフェクト
+
+## インストール方法
 
 ```bash
+# リポジトリのクローン
+git clone [repository-url]
+
+# プロジェクトディレクトリに移動
+cd dayou-site
+
+# 依存関係のインストール
+npm install
+
+# 開発サーバーの起動
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 環境変数
+`.env.local` ファイルを作成し、以下の環境変数を設定してください：
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```env
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 開発
+```bash
+# 開発サーバーの起動
+npm run dev
 
-## Learn More
+# ビルド
+npm run build
 
-To learn more about Next.js, take a look at the following resources:
+# 本番環境での起動
+npm run start
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# リントチェック
+npm run lint
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## デプロイ
+このプロジェクトは Vercel にデプロイすることを推奨します：
 
-## Deploy on Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/dayou-site)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ライセンス
+© 2025 大有国際株式会社 DAYOU International Co,.Ltd. All Rights Reserved.
