@@ -55,7 +55,6 @@ export const Banner = () => {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent" />
       </div>
 
       {/* 新图片淡入 */}
@@ -73,7 +72,6 @@ export const Banner = () => {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent" />
         </motion.div>
       )}
     </motion.div>

@@ -45,7 +45,6 @@ export const Products = () => {
                     fill
                     className="object-cover transition-transform duration-300 hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 </div>
               </CarouselItem>
               <CarouselItem>
@@ -56,7 +55,6 @@ export const Products = () => {
                     fill
                     className="object-cover transition-transform duration-300 hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 </div>
               </CarouselItem>
               <CarouselItem>
@@ -67,7 +65,6 @@ export const Products = () => {
                     fill
                     className="object-cover transition-transform duration-300 hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 </div>
               </CarouselItem>
               <CarouselItem>
@@ -78,7 +75,6 @@ export const Products = () => {
                     fill
                     className="object-cover transition-transform duration-300 hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 </div>
               </CarouselItem>
               <CarouselItem>
@@ -89,7 +85,6 @@ export const Products = () => {
                     fill
                     className="object-cover transition-transform duration-300 hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 </div>
               </CarouselItem>
             </CarouselContent>

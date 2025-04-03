@@ -36,7 +36,6 @@ export const AboutUs = () => {
             height={572}
             className="w-full h-auto object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent" />
           <div className="absolute top-0 left-0 bg-black/30 p-2 sm:p-3 rounded-br-lg backdrop-blur-sm">
             <SubLogo />
           </div>
@@ -58,7 +57,6 @@ export const AboutUs = () => {
             height={572}
             className="w-full h-auto object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent" />
           <div className="absolute top-0 left-0 bg-black/30 p-2 sm:p-3 rounded-br-lg backdrop-blur-sm">
             <SubLogo />
           </div>
@@ -89,7 +87,7 @@ export const AboutUs = () => {
                       height={335}
                       className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/50 px-2 py-1 rounded">
+                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/30 px-2 py-1 rounded">
                       赤道の未来都市・インドネシア
                     </div>
                   </div>
@@ -103,7 +101,7 @@ export const AboutUs = () => {
                       height={335}
                       className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/50 px-2 py-1 rounded">
+                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/30 px-2 py-1 rounded">
                       赤道の未来都市・インドネシア
                     </div>
                   </div>
@@ -119,7 +117,7 @@ export const AboutUs = () => {
                       height={350}
                       className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/50 px-2 py-1 rounded">
+                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/30 px-2 py-1 rounded">
                       赤道の未来都市・インドネシア
                     </div>
                   </div>
@@ -135,7 +133,7 @@ export const AboutUs = () => {
                       height={295}
                       className="h-[510px] w-auto transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/50 px-2 py-1 rounded">
+                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/30 px-2 py-1 rounded">
                       赤道の未来都市・インドネシア
                     </div>
                   </div>
@@ -151,7 +149,7 @@ export const AboutUs = () => {
                       height={350}
                       className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/50 px-2 py-1 rounded">
+                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/30 px-2 py-1 rounded">
                       赤道の未来都市・インドネシア
                     </div>
                   </div>
@@ -167,7 +165,7 @@ export const AboutUs = () => {
                       height={350}
                       className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/50 px-2 py-1 rounded">
+                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/30 px-2 py-1 rounded">
                       霧の摩天楼・ベトナム
                     </div>
                   </div>
@@ -183,7 +181,7 @@ export const AboutUs = () => {
                       height={350}
                       className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/50 px-2 py-1 rounded">
+                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/30 px-2 py-1 rounded">
                       霧の摩天楼・ベトナム
                     </div>
                   </div>
@@ -199,7 +197,7 @@ export const AboutUs = () => {
                       height={350}
                       className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/50 px-2 py-1 rounded">
+                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/30 px-2 py-1 rounded">
                       霧の摩天楼・ベトナム
                     </div>
                   </div>
@@ -215,7 +213,7 @@ export const AboutUs = () => {
                       height={295}
                       className="h-[510px] w-auto transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/50 px-2 py-1 rounded">
+                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/30 px-2 py-1 rounded">
                       霧の摩天楼・ベトナム
                     </div>
                   </div>
@@ -231,7 +229,7 @@ export const AboutUs = () => {
                       height={350}
                       className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/50 px-2 py-1 rounded">
+                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/30 px-2 py-1 rounded">
                       夜の黄金国・タイ
                     </div>
                   </div>
@@ -247,7 +245,7 @@ export const AboutUs = () => {
                       height={350}
                       className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/50 px-2 py-1 rounded">
+                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/30 px-2 py-1 rounded">
                       夜の黄金国・タイ
                     </div>
                   </div>
@@ -263,7 +261,7 @@ export const AboutUs = () => {
                       height={350}
                       className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/50 px-2 py-1 rounded">
+                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/30 px-2 py-1 rounded">
                       夜の黄金国・タイ
                     </div>
                   </div>
@@ -279,7 +277,7 @@ export const AboutUs = () => {
                       height={350}
                       className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/50 px-2 py-1 rounded">
+                    <div className="absolute bottom-2 left-2 right-2 text-white text-sm font-bold text-center bg-black/30 px-2 py-1 rounded">
                       夜の黄金国・タイ
                     </div>
                   </div>
