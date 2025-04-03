@@ -11,7 +11,7 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       <Hero />
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col gap-6 sm:gap-8 pt-16 sm:pt-20">
+        <div className="flex flex-col gap-8 sm:gap-10 pt-20 sm:pt-24 lg:pt-28">
           <Banner />
           <AboutUs />
           <Products />
