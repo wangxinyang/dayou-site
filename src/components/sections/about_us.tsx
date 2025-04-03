@@ -51,7 +51,7 @@ export const AboutUs = () => {
 
         <div className="relative w-full rounded-xl overflow-hidden shadow-lg hover-card">
           <Image
-            src="/assets/map.png"
+            src="/assets/map.jpg"
             alt="Market Map"
             width={1248}
             height={572}
