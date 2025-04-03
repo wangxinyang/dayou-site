@@ -41,8 +41,8 @@ export const Footer = () => {
             />
           </motion.div>
 
-          <div className="flex flex-col items-center gap-4">
-            <div className="flex gap-6">
+          <div className="flex flex-col items-center gap-6">
+            <div className="flex gap-8">
               <Link
                 href="#aboutus"
                 className="text-sm text-muted-foreground relative group"
@@ -71,7 +71,54 @@ export const Footer = () => {
                 </span>
               </Link>
             </div>
-            <p className="text-sm text-muted-foreground text-center">
+
+            <div className="w-full max-w-sm mx-auto">
+              <div className="h-px bg-border/60 w-full my-3" />
+
+              <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-xs text-muted-foreground">
+                <div className="text-right text-muted-foreground/70 whitespace-nowrap">
+                  会社名:
+                </div>
+                <div className="font-medium whitespace-nowrap">
+                  大有国際株式会社
+                </div>
+
+                <div className="text-right text-muted-foreground/70 whitespace-nowrap">
+                  所在地:
+                </div>
+                <div className="whitespace-nowrap">
+                  神奈川県横浜市港北区新吉田東五丁目70番16号
+                </div>
+
+                <div className="text-right text-muted-foreground/70 whitespace-nowrap">
+                  郵便番号:
+                </div>
+                <div className="whitespace-nowrap">〒223-0058</div>
+
+                <div className="text-right text-muted-foreground/70 whitespace-nowrap">
+                  メール:
+                </div>
+                <div className="hover:text-primary transition-colors whitespace-nowrap">
+                  <a href="mailto:DAYOU-international@mori-dx.jp">
+                    DAYOU-international@mori-dx.jp
+                  </a>
+                </div>
+
+                <div className="text-right text-muted-foreground/70 whitespace-nowrap">
+                  電話番号:
+                </div>
+                <div className="whitespace-nowrap">03-6909-6800</div>
+
+                <div className="text-right text-muted-foreground/70 whitespace-nowrap">
+                  FAX番号:
+                </div>
+                <div className="whitespace-nowrap">03-6909-6801</div>
+              </div>
+
+              <div className="h-px bg-border/60 w-full my-3" />
+            </div>
+
+            <p className="text-sm text-muted-foreground/80 text-center">
               © 2025 大有国際株式会社 DAYOU International Co,.Ltd. All Rights
               Reserved.
             </p>
