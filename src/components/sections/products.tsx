@@ -6,8 +6,6 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { motion } from "framer-motion";
@@ -95,8 +93,6 @@ export const Products = () => {
                 </div>
               </CarouselItem>
             </CarouselContent>
-            <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white" />
-            <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white" />
           </Carousel>
         </div>
       </motion.div>
