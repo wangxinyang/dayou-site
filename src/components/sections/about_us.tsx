@@ -27,7 +27,6 @@ export const AboutUs = () => {
           私達について
           <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-20 h-1 bg-primary rounded-full" />
         </h2>
-
         <div className="relative w-full rounded-xl overflow-hidden shadow-lg hover-card">
           <Image
             src="/assets/aboutus.jpg"
@@ -55,7 +54,6 @@ export const AboutUs = () => {
             </p>
           </div>
         </div>
-
         <div className="relative w-full rounded-xl overflow-hidden shadow-lg hover-card">
           <Image
             src="/assets/map.jpg"
@@ -67,21 +65,21 @@ export const AboutUs = () => {
           <div className="absolute top-0 left-6 lg:left-12 lg:p-2 sm:p-3 rounded-br-lg backdrop-blur-sm">
             <SubLogo />
           </div>
-          <div className="absolute bottom-0 left-20 sm:left-auto sm:top-1/2 sm:-translate-y-1/2 right-0 sm:right-[15%] max-w-[85%] sm:max-w-md p-3 sm:p-6 sm:rounded-lg">
-            <p className="text-xs sm:text-sm lg:text-lg leading-snug sm:leading-relaxed font-sans text-black text-center sm:text-left">
+          <div className="absolute bottom-0 left-0 right-0 sm:left-auto sm:top-1/2 sm:-translate-y-1/2 sm:right-[15%] max-w-full sm:max-w-md p-3 sm:p-6 text-black">
+            <p className="text-[8px] sm:text-xs lg:text-lg leading-tight sm:leading-relaxed font-sans text-left">
               <span className="inline-block w-[2em]"></span>
               東南アジアは、いまだ成長の余地を残す数少ない成長型市場として、
               いまや世界中のブランドが注目し、争奪の焦点となっています。
               激化する競争の中で、「品質」と「ブランド価値」の両立が成功の鍵
               を握ります。
             </p>
-            <p className="text-xs sm:text-sm lg:text-lg leading-snug sm:leading-relaxed font-sans text-black text-center sm:text-left">
+            <p className="text-[8px] sm:text-xs lg:text-lg leading-tight sm:leading-relaxed font-sans text-left">
               <span className="inline-block w-[2em]"></span>
               大有国際は、日本の優れたサプライチェーンの強みと、東南アジア
               市場への深い洞察を活かし、市場に密着した高効率な商品企画体制を
               構築しています。
             </p>
-            <p className="text-xs sm:text-sm lg:text-lg leading-snug sm:leading-relaxed font-sans text-black text-center sm:text-left">
+            <p className="text-[8px] sm:text-xs lg:text-lg leading-tight sm:leading-relaxed font-sans text-left">
               <span className="inline-block w-[2em]"></span>
               また、現地チームは多言語・多文化に対応できる体制を備え、顧客
               とダイレクトにつながることで、迅速なフィードバックを実現。それ
@@ -90,7 +88,6 @@ export const AboutUs = () => {
             </p>
           </div>
         </div>
-
         <div className="w-full overflow-hidden">
           <Carousel
             plugins={[plugin.current]}
@@ -191,20 +188,16 @@ export const AboutUs = () => {
                     </div>
                   </div>
                 </div>
-              </CarouselItem>
-              <CarouselItem className="basis-1/13">
-                <div className="p-1">
-                  <div className="relative group">
-                    <Image
-                      src="/assets/city8.jpg"
-                      alt="city8"
-                      width={350}
-                      height={350}
-                      className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
-                    />
-                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans">
-                      霧の摩天楼・ベトナム
-                    </div>
+                <div className="relative group">
+                  <Image
+                    src="/assets/city8.jpg"
+                    alt="city8"
+                    width={350}
+                    height={350}
+                    className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans">
+                    霧の摩天楼・ベトナム
                   </div>
                 </div>
               </CarouselItem>
