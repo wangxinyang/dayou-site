@@ -25,15 +25,17 @@ export const AboutUs = () => {
       >
         <h2 className="text-3xl lg:text-4xl font-bold text-[#555555] font-sans relative">
           私達について
+          <span className="sr-only">About Us - DAYOU International</span>
           <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-20 h-1 bg-primary rounded-full" />
         </h2>
         <div className="relative w-full rounded-xl overflow-hidden shadow-lg hover-card">
           <Image
             src="/assets/aboutus.jpg"
-            alt="About Us"
+            alt="DAYOU International - 日本企業の東南アジア進出をサポート"
             width={1248}
             height={600}
             className="w-full h-auto object-cover"
+            priority
           />
           <div className="absolute top-0 left-0 lg:p-2 sm:p-3 rounded-br-lg backdrop-blur-sm">
             <SubLogo />
@@ -48,16 +50,16 @@ export const AboutUs = () => {
               専門的な実力と的確な戦略で、日本ブランドの東南アジア市場での急
               成長を力強くサポート。「大有」を選ぶことは、未来の成功を共に築
               くことです！
-              <p className="text-xs lg:text-lg leading-snug sm:leading-relaxed font-sans text-[#a1787f] mt-1 text-left sm:text-left">
-                Connect Japan to Asia through Beauty!
-              </p>
+            </p>
+            <p className="text-xs lg:text-lg leading-snug sm:leading-relaxed font-sans text-[#a1787f] mt-1 text-left sm:text-left pl-4">
+              Connect Japan to Asia through Beauty!
             </p>
           </div>
         </div>
         <div className="relative w-full rounded-xl overflow-hidden shadow-lg hover-card">
           <Image
             src="/assets/map.jpg"
-            alt="Market Map"
+            alt="東南アジア市場への進出戦略 - DAYOU International"
             width={1248}
             height={572}
             className="w-full h-auto object-cover"
@@ -101,14 +103,14 @@ export const AboutUs = () => {
                     <div className="flex flex-col">
                       <Image
                         src="/assets/city1.jpg"
-                        alt="city1"
+                        alt="インドネシア・ジャカルタの都市景観 - 赤道の未来都市"
                         width={350}
                         height={175}
                         className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105"
                       />
                       <Image
                         src="/assets/city2.jpg"
-                        alt="city2"
+                        alt="インドネシア・ジャカルタのショッピングモール - 東南アジアの消費市場"
                         width={350}
                         height={175}
                         className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105 mt-[1px]"
@@ -125,7 +127,7 @@ export const AboutUs = () => {
                   <div className="relative group">
                     <Image
                       src="/assets/city3.jpg"
-                      alt="city3"
+                      alt="インドネシアの都市風景 - 東南アジアの発展する市場"
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
@@ -141,7 +143,7 @@ export const AboutUs = () => {
                   <div className="relative group">
                     <Image
                       src="/assets/city4.png"
-                      alt="city4"
+                      alt="インドネシアの近代的なビジネス地区 - 東南アジアのビジネスチャンス"
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
@@ -157,12 +159,12 @@ export const AboutUs = () => {
                   <div className="relative group">
                     <Image
                       src="/assets/city5.jpg"
-                      alt="city5"
+                      alt="インドネシアの商業施設 - 東南アジアの消費者市場"
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/70 backdrop-blur-sm shadow-md">
+                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       赤道の未来都市・インドネシア
                     </div>
                   </div>
@@ -174,14 +176,14 @@ export const AboutUs = () => {
                     <div className="flex flex-col">
                       <Image
                         src="/assets/city7.jpg"
-                        alt="city7"
+                        alt="ベトナム・ホーチミンの都市景観 - 霧の摩天楼"
                         width={350}
                         height={175}
                         className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105"
                       />
                       <Image
                         src="/assets/city8.jpg"
-                        alt="city8"
+                        alt="ベトナム・ホーチミンのショッピングモール - 東南アジアの小売市場"
                         width={350}
                         height={175}
                         className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105 mt-[1px]"
@@ -198,7 +200,7 @@ export const AboutUs = () => {
                   <div className="relative group">
                     <Image
                       src="/assets/city9.jpg"
-                      alt="city9"
+                      alt="ベトナムの都市風景 - 東南アジアの成長市場"
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
@@ -214,7 +216,7 @@ export const AboutUs = () => {
                   <div className="relative group">
                     <Image
                       src="/assets/city10.png"
-                      alt="city10"
+                      alt="ベトナムの近代的な都市景観 - 東南アジアの発展"
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
@@ -230,7 +232,7 @@ export const AboutUs = () => {
                   <div className="relative group">
                     <Image
                       src="/assets/city11.jpg"
-                      alt="city11"
+                      alt="タイ・バンコクの夜景 - 夜の黄金国"
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
@@ -246,7 +248,7 @@ export const AboutUs = () => {
                   <div className="relative group">
                     <Image
                       src="/assets/city12.jpg"
-                      alt="city12"
+                      alt="タイの商業施設 - 東南アジアのビジネス機会"
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
@@ -262,7 +264,7 @@ export const AboutUs = () => {
                   <div className="relative group">
                     <Image
                       src="/assets/city13.jpg"
-                      alt="city13"
+                      alt="タイの夜の都市景観 - 東南アジアの市場展開"
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
@@ -278,7 +280,7 @@ export const AboutUs = () => {
                   <div className="relative group">
                     <Image
                       src="/assets/city14.jpg"
-                      alt="city14"
+                      alt="タイの都市風景 - 東南アジア市場への進出"
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
