@@ -91,6 +91,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* 添加锚点跳转的偏移量，防止标题被固定导航栏遮挡 */
+section[id] {
+  scroll-margin-top: 100px;
+}
+
 /* 添加渐变背景效果 */
 .gradient-bg {
   background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);

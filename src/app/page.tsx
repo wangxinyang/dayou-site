@@ -44,7 +44,7 @@ export default function Home() {
 
             <div className="w-full py-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-[#555555] font-sans relative mb-8 text-center sm:text-center">
-                アジア市場
+                地図
                 <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-20 h-1 bg-primary rounded-full" />
               </h2>
               <div className="shadow-lg rounded-xl overflow-hidden">

@@ -1,5 +1,29 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import localFont from "next/font/local";
+
+// 定义日本ゴシック体字体
+const gothic = localFont({
+  src: [
+    {
+      path: "../fonts/NotoSansJP-Regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../fonts/NotoSansJP-Medium.woff2",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../fonts/NotoSansJP-Bold.woff2",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-gothic",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://dayou-international.com"),
@@ -58,8 +82,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ja" className="scroll-smooth bg-slate-100">
-      <body className="overflow-x-hidden text-foreground">{children}</body>
+    <html lang="ja" className={`scroll-smooth bg-slate-100 ${gothic.variable}`}>
+      <body className={`overflow-x-hidden text-foreground font-gothic`}>
+        {children}
+      </body>
     </html>
   );
 }
