@@ -15,7 +15,7 @@ export const AboutUs = () => {
   const plugin = useRef(AutoScroll({ speed: 1, stopOnInteraction: true }));
 
   return (
-    <section id="aboutus" className="w-full py-16">
+    <section id="aboutus" className="w-full py-8">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -33,23 +33,23 @@ export const AboutUs = () => {
             src="/assets/aboutus.jpg"
             alt="About Us"
             width={1248}
-            height={572}
+            height={600}
             className="w-full h-auto object-cover"
           />
-          <div className="absolute top-0 left-0 p-2 sm:p-3 rounded-br-lg backdrop-blur-sm">
+          <div className="absolute top-0 left-0 lg:p-2 sm:p-3 rounded-br-lg backdrop-blur-sm">
             <SubLogo />
           </div>
-          <div className="absolute bottom-0 sm:top-1/2 sm:-translate-y-1/2 right-0 sm:right-[15%] max-w-full sm:max-w-md p-3 sm:p-6 sm:rounded-lg">
-            <h3 className="text-sm sm:text-2xl lg:text-3xl font-bold mb-2 sm:mb-4 text-[#555555] font-sans text-center sm:text-left">
+          <div className="absolute bottom-0 left-20 sm:left-auto sm:top-1/2 sm:-translate-y-1/2 right-0 sm:right-[15%] max-w-[85%] sm:max-w-md p-3 sm:p-6 sm:rounded-lg">
+            <h3 className="text-sm lg:text-3xl font-bold mb-2 sm:mb-4 text-[#555555] font-sans text-center sm:text-left">
               私達について
             </h3>
-            <p className="text-xs sm:text-sm lg:text-lg leading-snug sm:leading-relaxed font-sans text-[#555555] text-center sm:text-left">
+            <p className="text-xs lg:text-lg leading-snug sm:leading-relaxed font-sans text-[#555555] lg:text-center text-left pl-4">
               私たちは日本に根ざし、東南アジア市場を積極的に開拓しています。
               専門的な実力と的確な戦略で、日本ブランドの東南アジア市場での急
               成長を力強くサポート。「大有」を選ぶことは、未来の成功を共に築
               くことです！
             </p>
-            <p className="text-xs sm:text-sm lg:text-lg leading-snug sm:leading-relaxed font-sans text-[#a1787f] mt-1 text-center sm:text-left">
+            <p className="text-xs lg:text-lg leading-snug sm:leading-relaxed font-sans text-[#a1787f] mt-1 text-center sm:text-left">
               Connect Japan to Asia through Beauty!
             </p>
           </div>
@@ -63,10 +63,10 @@ export const AboutUs = () => {
             height={572}
             className="w-full h-auto object-cover"
           />
-          <div className="absolute top-0 left-0 p-2 sm:p-3 rounded-br-lg backdrop-blur-sm">
+          <div className="absolute top-0 left-6 lg:left-12 lg:p-2 sm:p-3 rounded-br-lg backdrop-blur-sm">
             <SubLogo />
           </div>
-          <div className="absolute bottom-0 sm:top-1/2 sm:-translate-y-1/2 right-0 sm:right-[15%] max-w-full sm:max-w-md p-3 sm:p-6 sm:rounded-lg">
+          <div className="absolute bottom-0 left-20 sm:left-auto sm:top-1/2 sm:-translate-y-1/2 right-0 sm:right-[15%] max-w-[85%] sm:max-w-md p-3 sm:p-6 sm:rounded-lg">
             <h3 className="text-sm sm:text-2xl lg:text-3xl font-bold mb-2 sm:mb-4 text-[#555555] font-sans text-center sm:text-left">
               市場分析
             </h3>

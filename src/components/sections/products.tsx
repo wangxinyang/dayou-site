@@ -14,7 +14,7 @@ export const Products = () => {
   const plugin = useRef(Autoplay({ delay: 4000, stopOnInteraction: true }));
 
   return (
-    <section id="products" className="w-full py-16">
+    <section id="products" className="w-full py-8">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
