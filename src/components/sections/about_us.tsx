@@ -38,7 +38,7 @@ export const AboutUs = () => {
           <div className="absolute top-0 left-0 lg:p-2 sm:p-3 rounded-br-lg backdrop-blur-sm">
             <SubLogo />
           </div>
-          <div className="absolute bottom-0 left-20 sm:left-auto sm:top-1/2 sm:-translate-y-1/2 right-0 sm:right-[15%] max-w-[85%] sm:max-w-md p-3 sm:p-6 sm:rounded-lg">
+          <div className="absolute bottom-0 left-20 sm:left-auto sm:top-1/2 sm:-translate-y-1/2 sm:right-[15%] max-w-[85%] sm:max-w-md p-3 sm:p-6 sm:rounded-lg">
             <h3 className="text-sm lg:text-3xl font-bold mb-2 sm:mb-4 text-[#555555] font-sans text-center">
               私達について
             </h3>
@@ -96,30 +96,25 @@ export const AboutUs = () => {
           >
             <CarouselContent>
               <CarouselItem className="basis-1/13">
-                <div className="pt-1">
+                <div className="p-1">
                   <div className="relative group">
-                    <Image
-                      src="/assets/city1.jpg"
-                      alt="city1"
-                      width={335}
-                      height={335}
-                      className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
-                    />
-                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans">
-                      赤道の未来都市・インドネシア
+                    <div className="flex flex-col">
+                      <Image
+                        src="/assets/city1.jpg"
+                        alt="city1"
+                        width={350}
+                        height={175}
+                        className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105"
+                      />
+                      <Image
+                        src="/assets/city2.jpg"
+                        alt="city2"
+                        width={350}
+                        height={175}
+                        className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105 mt-[1px]"
+                      />
                     </div>
-                  </div>
-                </div>
-                <div>
-                  <div className="relative group">
-                    <Image
-                      src="/assets/city2.jpg"
-                      alt="city2"
-                      width={335}
-                      height={335}
-                      className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
-                    />
-                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans">
+                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       赤道の未来都市・インドネシア
                     </div>
                   </div>
@@ -133,9 +128,9 @@ export const AboutUs = () => {
                       alt="city3"
                       width={350}
                       height={350}
-                      className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
+                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans">
+                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       赤道の未来都市・インドネシア
                     </div>
                   </div>
@@ -147,11 +142,11 @@ export const AboutUs = () => {
                     <Image
                       src="/assets/city4.png"
                       alt="city4"
-                      width={295}
-                      height={295}
-                      className="h-[510px] w-auto transition-transform duration-300 group-hover:scale-105"
+                      width={350}
+                      height={350}
+                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans">
+                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       赤道の未来都市・インドネシア
                     </div>
                   </div>
@@ -165,9 +160,9 @@ export const AboutUs = () => {
                       alt="city5"
                       width={350}
                       height={350}
-                      className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
+                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans">
+                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/70 backdrop-blur-sm shadow-md">
                       赤道の未来都市・インドネシア
                     </div>
                   </div>
@@ -176,28 +171,25 @@ export const AboutUs = () => {
               <CarouselItem className="basis-1/13">
                 <div className="p-1">
                   <div className="relative group">
-                    <Image
-                      src="/assets/city7.jpg"
-                      alt="city7"
-                      width={350}
-                      height={350}
-                      className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
-                    />
-                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans">
+                    <div className="flex flex-col">
+                      <Image
+                        src="/assets/city7.jpg"
+                        alt="city7"
+                        width={350}
+                        height={175}
+                        className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105"
+                      />
+                      <Image
+                        src="/assets/city8.jpg"
+                        alt="city8"
+                        width={350}
+                        height={175}
+                        className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105 mt-[1px]"
+                      />
+                    </div>
+                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       霧の摩天楼・ベトナム
                     </div>
-                  </div>
-                </div>
-                <div className="relative group">
-                  <Image
-                    src="/assets/city8.jpg"
-                    alt="city8"
-                    width={350}
-                    height={350}
-                    className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
-                  />
-                  <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans">
-                    霧の摩天楼・ベトナム
                   </div>
                 </div>
               </CarouselItem>
@@ -209,9 +201,9 @@ export const AboutUs = () => {
                       alt="city9"
                       width={350}
                       height={350}
-                      className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
+                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans">
+                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       霧の摩天楼・ベトナム
                     </div>
                   </div>
@@ -223,11 +215,11 @@ export const AboutUs = () => {
                     <Image
                       src="/assets/city10.png"
                       alt="city10"
-                      width={295}
-                      height={295}
-                      className="h-[510px] w-auto transition-transform duration-300 group-hover:scale-105"
+                      width={350}
+                      height={350}
+                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans">
+                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       霧の摩天楼・ベトナム
                     </div>
                   </div>
@@ -241,9 +233,9 @@ export const AboutUs = () => {
                       alt="city11"
                       width={350}
                       height={350}
-                      className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
+                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans">
+                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       夜の黄金国・タイ
                     </div>
                   </div>
@@ -257,9 +249,9 @@ export const AboutUs = () => {
                       alt="city12"
                       width={350}
                       height={350}
-                      className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
+                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans">
+                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       夜の黄金国・タイ
                     </div>
                   </div>
@@ -273,9 +265,9 @@ export const AboutUs = () => {
                       alt="city13"
                       width={350}
                       height={350}
-                      className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
+                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans">
+                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       夜の黄金国・タイ
                     </div>
                   </div>
@@ -289,9 +281,9 @@ export const AboutUs = () => {
                       alt="city14"
                       width={350}
                       height={350}
-                      className="w-[100%] h-auto transition-transform duration-300 group-hover:scale-105"
+                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans">
+                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       夜の黄金国・タイ
                     </div>
                   </div>
