@@ -36,6 +36,7 @@ export const AboutUs = () => {
             height={600}
             className="w-full h-auto object-cover"
             priority
+            style={{ width: "auto", height: "auto" }}
           />
           <div className="absolute top-0 left-0 lg:p-2 sm:p-3 rounded-br-lg backdrop-blur-sm">
             <SubLogo />
@@ -63,6 +64,7 @@ export const AboutUs = () => {
             width={1248}
             height={572}
             className="w-full h-auto object-cover"
+            style={{ width: "auto", height: "auto" }}
           />
           <div className="absolute top-0 left-6 lg:left-12 lg:p-2 sm:p-3 rounded-br-lg backdrop-blur-sm">
             <SubLogo />
@@ -107,6 +109,7 @@ export const AboutUs = () => {
                         width={350}
                         height={175}
                         className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105"
+                        style={{ width: "auto", height: "auto" }}
                       />
                       <Image
                         src="/assets/city2.jpg"
@@ -114,6 +117,7 @@ export const AboutUs = () => {
                         width={350}
                         height={175}
                         className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105 mt-[1px]"
+                        style={{ width: "auto", height: "auto" }}
                       />
                     </div>
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
@@ -131,6 +135,7 @@ export const AboutUs = () => {
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "auto", height: "auto" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       赤道の未来都市・インドネシア
@@ -147,6 +152,7 @@ export const AboutUs = () => {
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "auto", height: "auto" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       赤道の未来都市・インドネシア
@@ -163,6 +169,7 @@ export const AboutUs = () => {
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "auto", height: "auto" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       赤道の未来都市・インドネシア
@@ -180,6 +187,7 @@ export const AboutUs = () => {
                         width={350}
                         height={175}
                         className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105"
+                        style={{ width: "auto", height: "auto" }}
                       />
                       <Image
                         src="/assets/city8.jpg"
@@ -187,6 +195,7 @@ export const AboutUs = () => {
                         width={350}
                         height={175}
                         className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105 mt-[1px]"
+                        style={{ width: "auto", height: "auto" }}
                       />
                     </div>
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
@@ -204,6 +213,7 @@ export const AboutUs = () => {
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "auto", height: "auto" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       霧の摩天楼・ベトナム
@@ -220,6 +230,7 @@ export const AboutUs = () => {
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "auto", height: "auto" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       霧の摩天楼・ベトナム
@@ -236,6 +247,7 @@ export const AboutUs = () => {
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "auto", height: "auto" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       夜の黄金国・タイ
@@ -252,6 +264,7 @@ export const AboutUs = () => {
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "auto", height: "auto" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       夜の黄金国・タイ
@@ -268,6 +281,7 @@ export const AboutUs = () => {
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "auto", height: "auto" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       夜の黄金国・タイ
@@ -284,6 +298,7 @@ export const AboutUs = () => {
                       width={350}
                       height={350}
                       className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "auto", height: "auto" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       夜の黄金国・タイ

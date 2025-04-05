@@ -1,29 +1,20 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import localFont from "next/font/local";
+import { Noto_Sans_JP } from "next/font/google";
 
-// 定义日本ゴシック体字体
-const gothic = localFont({
-  src: [
-    {
-      path: "../fonts/NotoSansJP-Regular.woff2",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../fonts/NotoSansJP-Medium.woff2",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../fonts/NotoSansJP-Bold.woff2",
-      weight: "700",
-      style: "normal",
-    },
-  ],
-  variable: "--font-gothic",
+// 设置Google Fonts
+const notoSansJP = Noto_Sans_JP({
+  weight: ["400", "500", "700"],
+  subsets: ["latin"],
+  preload: true,
   display: "swap",
+  variable: "--font-gothic",
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://dayou-international.com"),
@@ -59,10 +50,6 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
     apple: "/apple-icon.png",
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-  },
   robots: {
     index: true,
     follow: true,
@@ -82,7 +69,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ja" className={`scroll-smooth bg-slate-100 ${gothic.variable}`}>
+    <html
+      lang="ja"
+      className={`scroll-smooth bg-slate-100 ${notoSansJP.variable}`}
+    >
       <body className={`overflow-x-hidden text-foreground font-gothic`}>
         {children}
       </body>

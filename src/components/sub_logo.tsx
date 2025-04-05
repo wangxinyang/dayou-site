@@ -22,7 +22,13 @@ export const SubLogo = () => {
 
   return (
     <div className="flex items-start lg:items-center gap-2">
-      <Image src="/assets/logo.jpg" alt="logo" width={width} height={height} />
+      <Image
+        src="/assets/logo.jpg"
+        alt="logo"
+        width={width}
+        height={height}
+        style={{ width: "auto", height: "auto" }}
+      />
       <div className="flex flex-col justify-start">
         <h1 className="text-xs lg:text-3xl lg:leading-8 tracking-wide">
           大有国際株式会社
