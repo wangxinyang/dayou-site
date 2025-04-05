@@ -64,7 +64,7 @@ export const AboutUs = () => {
             width={1248}
             height={572}
             className="w-full h-auto object-cover"
-            style={{ width: "auto", height: "auto" }}
+            style={{ width: "auto" }}
           />
           <div className="absolute top-0 left-6 lg:left-12 lg:p-2 sm:p-3 rounded-br-lg backdrop-blur-sm">
             <SubLogo />
@@ -98,44 +98,51 @@ export const AboutUs = () => {
             opts={{ loop: true }}
             className="w-full"
           >
-            <CarouselContent>
-              <CarouselItem className="basis-1/13">
+            <CarouselContent className="-ml-1 md:-ml-2">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5 pl-1 md:pl-2">
                 <div className="p-1">
-                  <div className="relative group">
-                    <div className="flex flex-col">
-                      <Image
-                        src="/assets/city1.jpg"
-                        alt="インドネシア・ジャカルタの都市景観 - 赤道の未来都市"
-                        width={350}
-                        height={175}
-                        className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105"
-                        style={{ width: "auto", height: "auto" }}
-                      />
-                      <Image
-                        src="/assets/city2.jpg"
-                        alt="インドネシア・ジャカルタのショッピングモール - 東南アジアの消費市場"
-                        width={350}
-                        height={175}
-                        className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105 mt-[1px]"
-                        style={{ width: "auto", height: "auto" }}
-                      />
-                    </div>
+                  <div className="relative group h-[250px]">
+                    <Image
+                      src="/assets/city1.jpg"
+                      alt="インドネシア・ジャカルタの都市景観 - 赤道の未来都市"
+                      width={350}
+                      height={250}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "100%", height: "100%" }}
+                    />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       赤道の未来都市・インドネシア
                     </div>
                   </div>
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/13">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5 pl-1 md:pl-2">
                 <div className="p-1">
-                  <div className="relative group">
+                  <div className="relative group h-[250px]">
+                    <Image
+                      src="/assets/city2.jpg"
+                      alt="インドネシア・ジャカルタのショッピングモール - 東南アジアの消費市場"
+                      width={350}
+                      height={250}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "100%", height: "100%" }}
+                    />
+                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
+                      赤道の未来都市・インドネシア
+                    </div>
+                  </div>
+                </div>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5 pl-1 md:pl-2">
+                <div className="p-1">
+                  <div className="relative group h-[250px]">
                     <Image
                       src="/assets/city3.jpg"
                       alt="インドネシアの都市風景 - 東南アジアの発展する市場"
                       width={350}
-                      height={350}
-                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
-                      style={{ width: "auto", height: "auto" }}
+                      height={250}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "100%", height: "100%" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       赤道の未来都市・インドネシア
@@ -143,16 +150,16 @@ export const AboutUs = () => {
                   </div>
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/13">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5 pl-1 md:pl-2">
                 <div className="p-1">
-                  <div className="relative group">
+                  <div className="relative group h-[250px]">
                     <Image
                       src="/assets/city4.png"
                       alt="インドネシアの近代的なビジネス地区 - 東南アジアのビジネスチャンス"
                       width={350}
-                      height={350}
-                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
-                      style={{ width: "auto", height: "auto" }}
+                      height={250}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "100%", height: "100%" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       赤道の未来都市・インドネシア
@@ -160,16 +167,16 @@ export const AboutUs = () => {
                   </div>
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/13">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5 pl-1 md:pl-2">
                 <div className="p-1">
-                  <div className="relative group">
+                  <div className="relative group h-[250px]">
                     <Image
                       src="/assets/city5.jpg"
                       alt="インドネシアの商業施設 - 東南アジアの消費者市場"
                       width={350}
-                      height={350}
-                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
-                      style={{ width: "auto", height: "auto" }}
+                      height={250}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "100%", height: "100%" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       赤道の未来都市・インドネシア
@@ -177,43 +184,50 @@ export const AboutUs = () => {
                   </div>
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/13">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5 pl-1 md:pl-2">
                 <div className="p-1">
-                  <div className="relative group">
-                    <div className="flex flex-col">
-                      <Image
-                        src="/assets/city7.jpg"
-                        alt="ベトナム・ホーチミンの都市景観 - 霧の摩天楼"
-                        width={350}
-                        height={175}
-                        className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105"
-                        style={{ width: "auto", height: "auto" }}
-                      />
-                      <Image
-                        src="/assets/city8.jpg"
-                        alt="ベトナム・ホーチミンのショッピングモール - 東南アジアの小売市場"
-                        width={350}
-                        height={175}
-                        className="w-full h-[175px] object-cover transition-transform duration-300 group-hover:scale-105 mt-[1px]"
-                        style={{ width: "auto", height: "auto" }}
-                      />
-                    </div>
+                  <div className="relative group h-[250px]">
+                    <Image
+                      src="/assets/city7.jpg"
+                      alt="ベトナム・ホーチミンの都市景観 - 霧の摩天楼"
+                      width={350}
+                      height={250}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "100%", height: "100%" }}
+                    />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       霧の摩天楼・ベトナム
                     </div>
                   </div>
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/13">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5 pl-1 md:pl-2">
                 <div className="p-1">
-                  <div className="relative group">
+                  <div className="relative group h-[250px]">
+                    <Image
+                      src="/assets/city8.jpg"
+                      alt="ベトナム・ホーチミンのショッピングモール - 東南アジアの小売市場"
+                      width={350}
+                      height={250}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "100%", height: "100%" }}
+                    />
+                    <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
+                      霧の摩天楼・ベトナム
+                    </div>
+                  </div>
+                </div>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5 pl-1 md:pl-2">
+                <div className="p-1">
+                  <div className="relative group h-[250px]">
                     <Image
                       src="/assets/city9.jpg"
                       alt="ベトナムの都市風景 - 東南アジアの成長市場"
                       width={350}
-                      height={350}
-                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
-                      style={{ width: "auto", height: "auto" }}
+                      height={250}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "100%", height: "100%" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       霧の摩天楼・ベトナム
@@ -221,16 +235,16 @@ export const AboutUs = () => {
                   </div>
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/13">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5 pl-1 md:pl-2">
                 <div className="p-1">
-                  <div className="relative group">
+                  <div className="relative group h-[250px]">
                     <Image
                       src="/assets/city10.png"
                       alt="ベトナムの近代的な都市景観 - 東南アジアの発展"
                       width={350}
-                      height={350}
-                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
-                      style={{ width: "auto", height: "auto" }}
+                      height={250}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "100%", height: "100%" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       霧の摩天楼・ベトナム
@@ -238,16 +252,16 @@ export const AboutUs = () => {
                   </div>
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/13">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5 pl-1 md:pl-2">
                 <div className="p-1">
-                  <div className="relative group">
+                  <div className="relative group h-[250px]">
                     <Image
                       src="/assets/city11.jpg"
                       alt="タイ・バンコクの夜景 - 夜の黄金国"
                       width={350}
-                      height={350}
-                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
-                      style={{ width: "auto", height: "auto" }}
+                      height={250}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "100%", height: "100%" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       夜の黄金国・タイ
@@ -255,16 +269,16 @@ export const AboutUs = () => {
                   </div>
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/13">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5 pl-1 md:pl-2">
                 <div className="p-1">
-                  <div className="relative group">
+                  <div className="relative group h-[250px]">
                     <Image
                       src="/assets/city12.jpg"
                       alt="タイの商業施設 - 東南アジアのビジネス機会"
                       width={350}
-                      height={350}
-                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
-                      style={{ width: "auto", height: "auto" }}
+                      height={250}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "100%", height: "100%" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       夜の黄金国・タイ
@@ -272,16 +286,16 @@ export const AboutUs = () => {
                   </div>
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/13">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5 pl-1 md:pl-2">
                 <div className="p-1">
-                  <div className="relative group">
+                  <div className="relative group h-[250px]">
                     <Image
                       src="/assets/city13.jpg"
                       alt="タイの夜の都市景観 - 東南アジアの市場展開"
                       width={350}
-                      height={350}
-                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
-                      style={{ width: "auto", height: "auto" }}
+                      height={250}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "100%", height: "100%" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       夜の黄金国・タイ
@@ -289,16 +303,16 @@ export const AboutUs = () => {
                   </div>
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/13">
+              <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5 pl-1 md:pl-2">
                 <div className="p-1">
-                  <div className="relative group">
+                  <div className="relative group h-[250px]">
                     <Image
                       src="/assets/city14.jpg"
                       alt="タイの都市風景 - 東南アジア市場への進出"
                       width={350}
-                      height={350}
-                      className="w-full h-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
-                      style={{ width: "auto", height: "auto" }}
+                      height={250}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      style={{ width: "100%", height: "100%" }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 text-[#555555] text-sm font-bold text-center px-2 py-1 rounded font-sans bg-white/40 backdrop-blur-[2px] shadow-sm">
                       夜の黄金国・タイ

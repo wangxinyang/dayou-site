@@ -7,9 +7,9 @@ export const Logo = () => {
       <Image
         src="/assets/logo.jpg"
         alt="logo"
-        width={45}
-        height={45}
-        className="w-[45px] h-[45px] sm:w-[55px] sm:h-[55px] lg:w-[65px] lg:h-[65px]"
+        width={35}
+        height={35}
+        className="w-[45px] h-[45px] lg:w-[50px] lg:h-[50px]"
       />
       <div className="flex flex-col justify-center ml-2">
         <h1 className="text-xl sm:text-2xl lg:text-3xl leading-6 sm:leading-8 tracking-wide font-medium">
