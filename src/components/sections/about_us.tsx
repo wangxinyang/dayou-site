@@ -67,7 +67,7 @@ export const AboutUs = () => {
           <div className="absolute top-0 left-6 lg:left-12 lg:p-2 sm:p-3 rounded-br-lg backdrop-blur-sm">
             <SubLogo />
           </div>
-          <div className="absolute bottom-0 left-0 right-0 sm:left-auto sm:top-1/2 sm:-translate-y-1/2 sm:right-[15%] max-w-full sm:max-w-md p-3 sm:p-6 text-black">
+          <div className="absolute bottom-[-5px] left-0 right-0 sm:left-auto sm:top-1/2 sm:-translate-y-1/2 sm:right-[15%] max-w-full sm:max-w-md p-3 sm:p-6 text-black">
             <p className="text-[8px] sm:text-xs lg:text-lg leading-tight sm:leading-relaxed font-sans text-left">
               <span className="inline-block w-[2em]"></span>
               東南アジアは、いまだ成長の余地を残す数少ない成長型市場として、
