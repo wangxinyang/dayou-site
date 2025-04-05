@@ -40,17 +40,18 @@ export const AboutUs = () => {
             <SubLogo />
           </div>
           <div className="absolute bottom-0 left-20 sm:left-auto sm:top-1/2 sm:-translate-y-1/2 right-0 sm:right-[15%] max-w-[85%] sm:max-w-md p-3 sm:p-6 sm:rounded-lg">
-            <h3 className="text-sm lg:text-3xl font-bold mb-2 sm:mb-4 text-[#555555] font-sans text-center sm:text-left">
+            <h3 className="text-sm lg:text-3xl font-bold mb-2 sm:mb-4 text-[#555555] font-sans text-center">
               私達について
             </h3>
-            <p className="text-xs lg:text-lg leading-snug sm:leading-relaxed font-sans text-[#555555] lg:text-center text-left pl-4">
+            <p className="text-xs lg:text-lg leading-snug sm:leading-relaxed font-sans text-[#555555] text-left pl-4">
+              <span className="inline-block w-[2em]"></span>
               私たちは日本に根ざし、東南アジア市場を積極的に開拓しています。
               専門的な実力と的確な戦略で、日本ブランドの東南アジア市場での急
               成長を力強くサポート。「大有」を選ぶことは、未来の成功を共に築
               くことです！
-            </p>
-            <p className="text-xs lg:text-lg leading-snug sm:leading-relaxed font-sans text-[#a1787f] mt-1 text-center sm:text-left">
-              Connect Japan to Asia through Beauty!
+              <p className="text-xs lg:text-lg leading-snug sm:leading-relaxed font-sans text-[#a1787f] mt-1 text-left sm:text-left">
+                Connect Japan to Asia through Beauty!
+              </p>
             </p>
           </div>
         </div>
@@ -67,11 +68,25 @@ export const AboutUs = () => {
             <SubLogo />
           </div>
           <div className="absolute bottom-0 left-20 sm:left-auto sm:top-1/2 sm:-translate-y-1/2 right-0 sm:right-[15%] max-w-[85%] sm:max-w-md p-3 sm:p-6 sm:rounded-lg">
-            <h3 className="text-sm sm:text-2xl lg:text-3xl font-bold mb-2 sm:mb-4 text-[#555555] font-sans text-center sm:text-left">
-              市場分析
-            </h3>
-            <p className="text-xs sm:text-sm lg:text-lg leading-snug sm:leading-relaxed font-sans text-[#555555] text-center sm:text-left">
-              日本製品の輸出が加速し、東南アジア市場の潜在力が解き放たれる中、国際貿易の状況は急速に変化しています。多くの企業がベトナム、タイ、インドネシアなどの新興市場への進出を加速させ、地域間での競争が激化しています。東南アジアは、依然として高い成長可能性を持つ貴重な市場として、世界中のブランドが注目し、投資を行う重要な拠点となっています。
+            <p className="text-xs sm:text-sm lg:text-lg leading-snug sm:leading-relaxed font-sans text-black text-center sm:text-left">
+              <span className="inline-block w-[2em]"></span>
+              東南アジアは、いまだ成長の余地を残す数少ない成長型市場として、
+              いまや世界中のブランドが注目し、争奪の焦点となっています。
+              激化する競争の中で、「品質」と「ブランド価値」の両立が成功の鍵
+              を握ります。
+            </p>
+            <p className="text-xs sm:text-sm lg:text-lg leading-snug sm:leading-relaxed font-sans text-black text-center sm:text-left">
+              <span className="inline-block w-[2em]"></span>
+              大有国際は、日本の優れたサプライチェーンの強みと、東南アジア
+              市場への深い洞察を活かし、市場に密着した高効率な商品企画体制を
+              構築しています。
+            </p>
+            <p className="text-xs sm:text-sm lg:text-lg leading-snug sm:leading-relaxed font-sans text-black text-center sm:text-left">
+              <span className="inline-block w-[2em]"></span>
+              また、現地チームは多言語・多文化に対応できる体制を備え、顧客
+              とダイレクトにつながることで、迅速なフィードバックを実現。それ
+              に基づき、商品や戦略の継続的な改善を行い、供給と需要の最適なマッ
+              チングと価値向上を図っています。
             </p>
           </div>
         </div>
